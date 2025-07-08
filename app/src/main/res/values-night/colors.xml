@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Culori specifice pentru modul întunecat -->
+    <color name="card_background">@color/dark_gray</color>
+    <color name="logo_tint">@color/white</color>
+</resources> 

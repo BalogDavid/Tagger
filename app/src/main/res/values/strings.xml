@@ -1,0 +1,77 @@
+<resources>
+    <!-- Strings legate de aplicație -->
+    <string name="app_name">Tagger</string>
+    <string name="app_version">Versiune aplicație</string>
+    <string name="version_number">1.0.0</string>
+    <string name="app_instructions">1. Alege brand-ul favorit.\n2. Scanează sau încarcă din galerie/fișiere eticheta din partea sus a articolului vestimentar.\n3. Vei primi rezultatul verificării.</string>
+    <string name="user_guide">Ghid de utilizare</string>
+    <string name="user_guide_title">Cum funcționează Tagger</string>
+    
+    <!-- Navigare și butoane comune -->
+    <string name="back_button">Înapoi</string>
+    <string name="back_home">Înapoi la început</string>
+    <string name="settings_button">Setări</string>
+    <string name="settings">Setări</string>
+    <string name="yes">Da</string>
+    <string name="no">Nu</string>
+    <string name="got_it">Am înțeles</string>
+    
+    <!-- Ecranul principal -->
+    <string name="brand_logo">Brand Logo</string>
+    <string name="select_brand">Selectează brandul</string>
+    <string name="history_button">Istoric scanări</string>
+    
+    <!-- Scanare -->
+    <string name="scan_label">Scanează eticheta</string>
+    <string name="scan_brand">Scanează: %1$s</string>
+    <string name="capture_button">Capturează imaginea</string>
+    <string name="gallery_button">Galerie/Fișiere</string>
+    
+    <!-- Sfaturi pentru scanare -->
+    <string name="scan_tips_title">Sfaturi pentru scanare</string>
+    <string name="scan_tips_message">Pentru un rezultat cât mai bun:\n\n• Centrează eticheta principală a articolului în cameră\n• Asigură-te că ai o lumină bună când fotografiezi\n• Ține telefonul nemișcat când fotografiezi</string>
+    <string name="dont_show_again_checkbox">Nu mai afișa acest mesaj</string>
+    
+    <!-- Rezultat scanare -->
+    <string name="result_title">Rezultat</string>
+    <string name="result_authentic">Autentic</string>
+    <string name="result_fake">Fals</string>
+    <string name="result_inconclusive">Neconcludent</string>
+    <string name="confidence_score">Scor: %1$.2f%%</string>
+    <string name="save_result">Salvează rezultatul</string>
+    <string name="save_to_gallery">Salvează în Galerie</string>
+    <string name="save_to_files">Salvează în Fișiere</string>
+    
+    <!-- Istoric scanări -->
+    <string name="scan_history">Istoric scanări</string>
+    <string name="clear_history">Șterge istoric</string>
+    <string name="no_history">No History</string>
+    <string name="history_item_date">Date: %1$s</string>
+    <string name="history_item_brand">Brand: %1$s</string>
+    <string name="history_item_result">Result: %1$s</string>
+    <string name="history_cleared">Istoricul a fost șters</string>
+    <string name="delete_confirmation_title">Confirmare ștergere</string>
+    <string name="delete_confirmation_message">Sigur doriți să ștergeți tot istoricul scanărilor?</string>
+    
+    <!-- Setări temă -->
+    <string name="theme_settings">Setări temă</string>
+    <string name="theme_title">Tema aplicației</string>
+    <string name="light_theme">Temă luminoasă</string>
+    <string name="dark_theme">Temă întunecată</string>
+    <string name="system_theme">Implicit sistem</string>
+    <string name="theme_light">Mod luminos</string>
+    <string name="theme_dark">Mod întunecat</string>
+    <string name="theme_system">Folosește tema sistemului</string>
+    
+    <!-- Setări limbă -->
+    <string name="language_settings">Setări limbă</string>
+    <string name="language_romanian">Română</string>
+    <string name="language_english">Engleză</string>
+    
+    <!-- Resurse model clasificare -->
+    <string name="model_nike">nike_model.tflite</string>
+    <string name="labels_nike">nike_labels.txt</string>
+    
+    <!-- Brand indisponibil -->
+    <string name="brand_unavailable_message">Acest brand nu este disponibil momentan</string>
+</resources>

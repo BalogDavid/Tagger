@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/colorBackground">
+
+    <!-- Layout superior cu butonul înapoi și titlul -->
+    <LinearLayout
+        android:id="@+id/historyTopBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="24dp"
+        android:elevation="4dp">
+
+        <!-- Buton de navigare înapoi -->
+        <Button
+            android:id="@+id/historyBackButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/back_home"
+            android:layout_margin="8dp" />
+
+        <!-- Titlu centrat -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/scan_history"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:padding="8dp" />
+    </LinearLayout>
+        
+    <!-- ListView pentru istoricul scanărilor -->
+    <ListView
+        android:id="@+id/historyListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/historyTopBar"
+        android:layout_above="@+id/clearHistoryButton"
+        android:divider="@android:color/darker_gray"
+        android:dividerHeight="1dp"
+        android:padding="8dp" />
+
+    <!-- Text pentru afișare când nu există istoric -->
+    <TextView
+        android:id="@+id/emptyHistoryText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="@string/no_history"
+        android:textSize="18sp"
+        android:visibility="gone" />
+
+    <!-- Buton pentru ștergerea istoricului -->
+    <Button
+        android:id="@+id/clearHistoryButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="16dp"
+        android:text="@string/clear_history" />
+
+</RelativeLayout> 

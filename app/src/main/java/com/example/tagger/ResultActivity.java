@@ -121,8 +121,7 @@ public class ResultActivity extends BaseActivity {
                     if (parts.length > 1) {
                         String scorePart = parts[1].replace(")", "").trim();
                         scoreValue = Float.parseFloat(scorePart);
-                        // Pentru etichete false, inversăm scorul pentru a arăta "cât de sigur este că e fals"
-                        scoreValue = 1.0f - scoreValue;
+                        
                     }
                 } catch (Exception e) {
                     // Folosim scorul implicit
